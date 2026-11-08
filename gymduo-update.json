@@ -1,9 +1,9 @@
 {
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.23/GymDuo.apk",
-  "versionName": "1.23",
-  "sha256": "110ea7fdfbe7e028750bb11f040ba6efb9e313482b955926bf196f92c60f8337",
-  "versionCode": 23,
-  "releaseNotes": "Composizione corporea più trasparente: ricerca e motivi di applicabilità nei dettagli di muscolo, osso, proteine, grasso viscerale ed età metabolica. Nessun valore commerciale simulato o percentuale di accuratezza inventata.\n\nNuovo volume viscerale sperimentale in litri: modello antropometrico Lin 2020, facoltativo e separato dalle letture BLE. Richiede conferma della popolazione studiata e rispetta limiti e salvaguardie espliciti; non equivale all’indice Vitafit.\n\nMetodo/versione e stato di applicabilità salvati con le nuove pesate. Vecchi risultati conservati; modelli mano-piede esclusi dalle nuove letture VT7018. Confronto Vitafit con avvertenze specifiche per unità e compartimento.\n\nStessa firma e package, nessuna disinstallazione. BLE, Firebase, aggiornamenti, backup e TV conservati. Test automatici su PC; nessuna nuova validazione clinica o prova su telefono/bilancia/TV fisici.\r\n",
+  "versionCode": 24,
+  "sha256": "616e90073e03430f625971c38c4f0714d617de0e423fb5402bc557b177134539",
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.24/GymDuo.apk",
   "applicationId": "it.gymduo.app",
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/725211324"
+  "versionName": "1.24",
+  "releaseNotes": "Nuove pesate: calcolo automatico di muscolo scheletrico sperimentale, quote convenzionali ossea/proteica e indicatore di tessuti magri non ossei. Ogni risultato è etichettato con metodo, origine, versione e limiti; nessuna percentuale di accuratezza inventata.\n\nVolume viscerale Lin in litri automatico, distinto dall’indice Vitafit e con eventuale estrapolazione segnalata. Età metabolica non fabbricata. Base piede-piede Wu, acqua e metabolismo già presenti conservati; nessun ricalcolo dello storico.\n\nAnalizzati i percorsi Vitafit/Xiaomi e StandardImpedanceLib/BodyMiScaleLib di openScale. Nessuna libreria GPL o calibrazione Xiaomi incorporata: implementazioni matematiche indipendenti, non equivalenza dichiarata con Vitafit.\n\nStessa grafica, firma e package. Una pesata e salvataggio nell’account autenticato; BLE, Firebase, backup, updater e TV conservati. Verifiche automatiche su PC; nessuna nuova validazione clinica o prova hardware dichiarata.\r\n",
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/725374899"
 }
