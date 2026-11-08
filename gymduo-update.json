@@ -1,8 +1,8 @@
 {
-  "versionName": "1.15",
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.15/GymDuo.apk",
-  "sha256": "ca6ad56cf214c930f518310d81c9643ece3d78a580eeb94da664b22c69e5ba9a",
+  "versionCode": 16,
   "applicationId": "it.gymduo.app",
-  "versionCode": 15,
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/723460374"
+  "sha256": "54b26e10f37368549d16c26063c2b2044d728cee5fc7692bdce6f6574793f4d7",
+  "versionName": "1.16",
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.16/GymDuo.apk",
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/723669193"
 }
