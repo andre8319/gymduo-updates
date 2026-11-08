@@ -1,8 +1,9 @@
 {
-  "versionCode": 16,
+  "sha256": "ca84be6def680d7d458742844e9c48d7b0661b6c2231ca75953fbd633f5ff9d4",
+  "versionName": "1.17",
+  "versionCode": 17,
   "applicationId": "it.gymduo.app",
-  "sha256": "54b26e10f37368549d16c26063c2b2044d728cee5fc7692bdce6f6574793f4d7",
-  "versionName": "1.16",
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.16/GymDuo.apk",
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/723669193"
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.17/GymDuo.apk",
+  "releaseNotes": "Aggiornamento ufficiale GymDuo 1.17 (versionCode 17), unico APK per Andrea e Penny, firmato con il certificato originale. Installazione sopra la versione esistente, senza disinstallazione.\n\n- Aggiornamenti: correzioni 1.16 incluse, API pubblica GitHub e mirror del manifest, diagnostica specifica e Verifica ora; WorkManager periodico con rete, notifiche Aggiorna ora/Più tardi. Verifica HTTPS, SHA-256, package, versione e firma prima dell'installatore Android.\n- Bilancia BLE diretta: ricerca Vitafit Body Fat, GATT FFF0/FFF1/FFF2, peso stabile e impedenza quando ricevuti, riconnessione e gestione errori. Conferma profilo e confronto del peso con il display prima del salvataggio.\n- Storico e grafici personali sincronizzati; cache pesata non salvata e blocco duplicati. Stime corporee facoltative, separate dai dati diretti; indicatore osseo euristico non validato. Health Connect/CSV restano alternative.\n\nCompatibilità fisica VT7018 non ancora confermata: parser e UI sono testati con campioni documentati/bridge simulato, non con una pesata sul dispositivo dell'utente. Nessuna misura dimostrativa viene generata dall'app.\n\nTest automatici: compilazione release, firma originale, updater (versione corrente/nuova/offline/manifest e APK non validi), backup/ripristino, protocollo e formule, UI e Firebase Auth/Firestore emulator con isolamento profili. Non eseguiti test fisici su Xiaomi, radio BLE, installatore o timer HyperOS.\n\nSe la 1.15 non riesce a scaricare dal suo vecchio endpoint, occorre installare una volta l'APK corretto sopra quello esistente; dalla 1.16/1.17 gli aggiornamenti successivi si gestiscono dentro GymDuo. Android può rinviare i controlli in background e richiede consenso notifiche e conferma installazione.\n",
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/723739052"
 }
