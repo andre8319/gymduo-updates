@@ -1,9 +1,9 @@
 {
   "applicationId": "it.gymduo.app",
-  "releaseNotes": "Bilancia Vitafit VT7018: un solo pulsante Inizia pesata dopo la prima associazione, salvataggio automatico nell'account autenticato, raccolta dell'impedenza successiva al peso, storico con eliminazione e Annulla. Controlli di integrità invariati; stime corporee facoltative e chiaramente distinte dai dati diretti.\n\nGymDuo TV: ricevitore browser su https://andre8319.github.io/gymduo-tv/ con codice temporaneo, telefono come telecomando, animazioni/video, serie, carichi e timer locale. Non occorre inserire credenziali Firebase sulla TV. Richiede Internet su entrambi i dispositivi.\n\nGoogle Cast tramite SDK ufficiale per i video compatibili; la schermata completa dell'allenamento usa il browser TV. Duplicazione tramite impostazioni Android, se disponibile. Compatibilità fisica dipendente dal televisore.\n\nTest automatici su PC, Firebase emulator, Chromium e WebKit. Nessun nuovo test radio sulla bilancia o su TV fisiche. Package e certificato originali conservati; aggiornamento senza disinstallazione.\n",
-  "versionName": "1.20",
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.20/GymDuo.apk",
-  "versionCode": 20,
-  "sha256": "12126890d79754165f99b744804c2f401997f40fa9a38f390c870aad3b0da345",
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/724512275"
+  "versionCode": 21,
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.21/GymDuo.apk",
+  "versionName": "1.21",
+  "releaseNotes": "Aggiornamenti più chiari: finestra premium con connessione, download dai byte effettivi, percentuale e MB quando il totale è disponibile, verifica integrità e preparazione installazione. Nessuna percentuale simulata.\n\nAnnullamento del download, Riprova, protezione dai doppi tocchi, finestra nascondibile e recupero dello stato dopo il ritorno nell'app. Conferma dell'installazione tramite Android; messaggio di completamento soltanto dopo il controllo della versione installata.\n\nIndicatori discreti anche per backup/ripristino, sincronizzazione Firebase, importazione delle schede, bilancia Bluetooth e collegamento TV. Le attese brevi non aprono finestre invasive.\n\nStessa firma e package. La nuova interfaccia entra in funzione dopo aver installato questa versione: l'aggiornamento dalla versione precedente viene ancora gestito dal suo updater.\n",
+  "sha256": "eab78d38b7192d973643bf88c3f36c1d18d2b73bf2555b283c7ce20678f975ae",
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/724791425"
 }
