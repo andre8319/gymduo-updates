@@ -1,9 +1,9 @@
 {
   "applicationId": "it.gymduo.app",
-  "versionCode": 21,
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.21/GymDuo.apk",
-  "versionName": "1.21",
-  "releaseNotes": "Aggiornamenti più chiari: finestra premium con connessione, download dai byte effettivi, percentuale e MB quando il totale è disponibile, verifica integrità e preparazione installazione. Nessuna percentuale simulata.\n\nAnnullamento del download, Riprova, protezione dai doppi tocchi, finestra nascondibile e recupero dello stato dopo il ritorno nell'app. Conferma dell'installazione tramite Android; messaggio di completamento soltanto dopo il controllo della versione installata.\n\nIndicatori discreti anche per backup/ripristino, sincronizzazione Firebase, importazione delle schede, bilancia Bluetooth e collegamento TV. Le attese brevi non aprono finestre invasive.\n\nStessa firma e package. La nuova interfaccia entra in funzione dopo aver installato questa versione: l'aggiornamento dalla versione precedente viene ancora gestito dal suo updater.\n",
-  "sha256": "eab78d38b7192d973643bf88c3f36c1d18d2b73bf2555b283c7ce20678f975ae",
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/724791425"
+  "sha256": "fbafce2e33b45ccb507c21d07f470d61a850fc852618108c2fce570f4933c550",
+  "versionName": "1.22",
+  "releaseNotes": "Nuova Bilancia: dashboard compatta ispirata al mockup, peso centrale, variazione dalla pesata precedente e 14 parametri cliccabili. Dettagli con metodo, dati usati, attendibilità, riferimenti quando appropriati e grafico storico. Acqua corporea riunita in una sola card; nessun valore inventato per i parametri non stimabili.\n\nModello piede-piede Wu 2015 sperimentale per massa magra/grassa, con acqua derivata dall’ipotesi di idratazione e metabolismo a riposo antropometrico. Le vecchie stime restano nello storico. Frequenza e calibrazione VT7018 non validate; nessuna accuratezza individuale dichiarata. Confronto Vitafit facoltativo, separato dai risultati GymDuo.\n\nImpostazioni Bluetooth e diagnostica spostate in Profilo → Impostazioni → Dispositivi collegati → Bilancia. Pesata con un pulsante, account Firebase automatico e salvataggio senza conferma conservati.\n\nPalestra & TV: TV salvate per account con nome e riconnessione, sospensione della TV precedente e revoca del collegamento. Verificati anche modifica di ripetizioni/carico e fallback video. Browser TV per l’allenamento completo; Cast ufficiale per i video compatibili e duplicazione dove disponibile.\n\nStesso APK per Andrea e Penny, package e certificato originali. Test automatici su PC e emulatori Firebase; nessun nuovo collaudo radio, installazione Xiaomi o test su TV fisica.\n",
+  "versionCode": 22,
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.22/GymDuo.apk",
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/725004400"
 }
