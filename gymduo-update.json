@@ -1,9 +1,9 @@
 {
-  "releaseNotes": "Interfaccia riorganizzata mantenendo logo, icona e media open source già integrati.\n\nHome più utile: scheda da riprendere, avvio allenamento, ultima pesata, ultimo allenamento e collegamento TV. Rimossa la ricerca esercizi duplicata.\n\nAllenamento focalizzato sull'esercizio corrente: animazione esistente subito visibile, serie/ripetizioni/recupero, input rapidi, Fine serie e timer. Tecnica su richiesta con ritorno all'allenamento; miniature della scheda che conservano progressi e carichi.\n\nEsercizi: una sola barra di ricerca, filtri conservati, aggiunta personale spostata negli strumenti secondari. Bilancia: card compatte con il valore principale; metodo, stime, unità di confronto e range rimangono nel dettaglio. Dispositivi e diagnostica nelle impostazioni.\n\nMenu alto dedicato alle funzioni secondarie. Impostazioni per categorie e pagina Aggiornamenti dedicata; preferenze personali per testo più grande e animazioni automatiche ridotte. Collegamento browser TV secondario rispetto alla ricerca LG nell'APK.\n\nStesso package e certificato Android, versionCode 26. BLE, algoritmi corporei, Firebase, backup, updater e companion LG conservati. Test automatici su PC; nessun nuovo collaudo fisico di telefono, bilancia o TV dichiarato.\n",
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.26/GymDuo.apk",
+  "versionName": "1.27",
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.27/GymDuo.apk",
+  "releaseNotes": "Importa da ChatGPT nelle Schede: formato GymDuo v1 esteso e retrocompatibile, file o testo JSON, anteprima completa e riconoscimento locale tramite ID, nomi italiani/inglesi, sinonimi e variante.\n\nGli esercizi non riconosciuti non bloccano il resto della scheda: crea un personale, conferma un equivalente oppure conserva una voce da completare. Esercizi personali sincronizzati e modificabili, senza GIF sostitutive.\n\nSupporto a RIR/RPE, superset/circuiti intercalati e prescrizioni settimanali esplicite. Modifica manuale delle prescrizioni e scelta della settimana. Originali conservati; nessun carico o recupero mancante viene aggiunto al programma.\n\nDestinazione sempre nell’account Firebase autenticato, indipendentemente dal nome nel JSON. Impronte SHA-256 e identificativi stabili contro le importazioni duplicate. Nessuna sovrascrittura silenziosa delle schede esistenti.\n\nSchema, template, esempio completo e prompt riutilizzabile inclusi. Stesso package e firma, versionCode 27. Catalogo e media, grafica premium, bilancia, Firebase, backup, updater e companion TV conservati. Verifiche automatiche su PC; nessun nuovo test hardware dichiarato.\n",
+  "versionCode": 27,
+  "sha256": "cffcdb8e327dcdf5fada43f733f299ec0748c6e945ad2d7d2b1a6439f209a343",
   "applicationId": "it.gymduo.app",
-  "sha256": "9367af083dfe6c3ed7c0e961ca24f1360a279835c7aeddf5a0da59094ddd1676",
-  "versionName": "1.26",
-  "versionCode": 26,
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/727079124"
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/727270937"
 }
