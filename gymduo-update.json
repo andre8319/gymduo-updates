@@ -1,9 +1,9 @@
 {
-  "releaseNotes": "Schede riorganizzate: una card per programma, giorni di allenamento nel dettaglio e lista degli esercizi del giorno con le anteprime già presenti nel catalogo. Pulsante principale «Comincia allenamento» e ripresa della sessione in corso.\n\nModifica, riordino dei giorni, aggiunta ed eliminazione spostati nei menu secondari. Navigazione Indietro coerente, bottom navigation conservata; importazione da ChatGPT nel menu Aggiungi e nel menu principale degli strumenti.\n\nNessuna migrazione dei dati: le giornate già salvate vengono raggruppate per programma. Schede singole, prescrizioni, progressioni, storico, import/export e sincronizzazione Firebase conservati. Catalogo, GIF, logo, bilancia, backup, updater e TV invariati.\n\nTest automatici su PC: navigazione, immagini esistenti, schermate 320–768 pixel, ripresa e campi dell’allenamento, raggruppamento superset, modifica/riordino/cancellazione e sincronizzazione con Auth/Firestore emulati tra due client e account separati. Package e firma originali, versionCode 28. Nessun nuovo test dichiarato su telefono, bilancia o TV reali.\n",
-  "versionCode": 28,
-  "sha256": "b2c81e30d8416db23dad4bd4becd3b4b05aec92d54e93a23584a845c5ba12648",
   "applicationId": "it.gymduo.app",
-  "versionName": "1.28",
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.28/GymDuo.apk",
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/727731251"
+  "versionCode": 29,
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.29/GymDuo.apk",
+  "sha256": "c723a9c477d10dc1daf4bd372666232672e8f92068ebff9434f52316363cabc8",
+  "releaseNotes": "Allenamento ridisegnato: animazione originale, nome, quattro indicatori (serie, ripetizioni o durata, carico e recupero), campi effettivi e miniature della scheda in una vista compatta. Fine serie grande e viola, con azione fissata sugli schermi piccoli e durante la riduzione del viewport dovuta alla tastiera.\n\nNuova finestra interna «Allenamento già in corso», con Annulla e Termina e continua, gestione del tasto Indietro, focus e protezione del contenuto sottostante. Il cambio conserva storico, sessione precedente, progressi e bozza; il salvataggio locale precede l’avvio e la sincronizzazione riprende anche dopo una disconnessione.\n\nRecupero con countdown basato sull’orario di scadenza, pausa/ripresa e +30 secondi. Protezione dai tocchi rapidi ripetuti su Fine serie. Note, RIR/RPE, fonte dell’animazione, TV e termine della seduta restano disponibili nei pannelli secondari.\n\nLogo, font, catalogo e media, package it.gymduo.app, Firebase, bilancia, backup e updater conservati. Stessa firma originale, versionCode 29. Test automatici su PC, Firebase emulato e viewport ridotti; nessuna nuova prova dichiarata su telefono, tastiera Android, bilancia o TV reali.\n",
+  "versionName": "1.29",
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/727898903"
 }
