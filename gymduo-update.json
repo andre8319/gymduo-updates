@@ -1,9 +1,9 @@
 {
-  "versionName": "1.27",
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.27/GymDuo.apk",
-  "releaseNotes": "Importa da ChatGPT nelle Schede: formato GymDuo v1 esteso e retrocompatibile, file o testo JSON, anteprima completa e riconoscimento locale tramite ID, nomi italiani/inglesi, sinonimi e variante.\n\nGli esercizi non riconosciuti non bloccano il resto della scheda: crea un personale, conferma un equivalente oppure conserva una voce da completare. Esercizi personali sincronizzati e modificabili, senza GIF sostitutive.\n\nSupporto a RIR/RPE, superset/circuiti intercalati e prescrizioni settimanali esplicite. Modifica manuale delle prescrizioni e scelta della settimana. Originali conservati; nessun carico o recupero mancante viene aggiunto al programma.\n\nDestinazione sempre nell’account Firebase autenticato, indipendentemente dal nome nel JSON. Impronte SHA-256 e identificativi stabili contro le importazioni duplicate. Nessuna sovrascrittura silenziosa delle schede esistenti.\n\nSchema, template, esempio completo e prompt riutilizzabile inclusi. Stesso package e firma, versionCode 27. Catalogo e media, grafica premium, bilancia, Firebase, backup, updater e companion TV conservati. Verifiche automatiche su PC; nessun nuovo test hardware dichiarato.\n",
-  "versionCode": 27,
-  "sha256": "cffcdb8e327dcdf5fada43f733f299ec0748c6e945ad2d7d2b1a6439f209a343",
+  "releaseNotes": "Schede riorganizzate: una card per programma, giorni di allenamento nel dettaglio e lista degli esercizi del giorno con le anteprime già presenti nel catalogo. Pulsante principale «Comincia allenamento» e ripresa della sessione in corso.\n\nModifica, riordino dei giorni, aggiunta ed eliminazione spostati nei menu secondari. Navigazione Indietro coerente, bottom navigation conservata; importazione da ChatGPT nel menu Aggiungi e nel menu principale degli strumenti.\n\nNessuna migrazione dei dati: le giornate già salvate vengono raggruppate per programma. Schede singole, prescrizioni, progressioni, storico, import/export e sincronizzazione Firebase conservati. Catalogo, GIF, logo, bilancia, backup, updater e TV invariati.\n\nTest automatici su PC: navigazione, immagini esistenti, schermate 320–768 pixel, ripresa e campi dell’allenamento, raggruppamento superset, modifica/riordino/cancellazione e sincronizzazione con Auth/Firestore emulati tra due client e account separati. Package e firma originali, versionCode 28. Nessun nuovo test dichiarato su telefono, bilancia o TV reali.\n",
+  "versionCode": 28,
+  "sha256": "b2c81e30d8416db23dad4bd4becd3b4b05aec92d54e93a23584a845c5ba12648",
   "applicationId": "it.gymduo.app",
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/727270937"
+  "versionName": "1.28",
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.28/GymDuo.apk",
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/727731251"
 }
