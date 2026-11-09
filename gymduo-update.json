@@ -1,9 +1,9 @@
 {
-  "sha256": "6814ed075f1e2d197b6d8e85cc6c28c52a8f1cc6d8cf559971fb313742e828f7",
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.25/GymDuo.apk",
-  "versionName": "1.25",
-  "releaseNotes": "Palestra & TV: ricerca LG webOS sulla rete locale, prima autorizzazione sul televisore e collegamenti salvati senza codice. Nuovo companion GymDuo TV .ipk; apertura automatica alternativa del browser LG. Google Cast ufficiale per video, distinto dall'interfaccia allenamento completa.\n\nCorretto il rifiuto dei codici dovuto alla differenza fra orologio locale e server: scadenze basate su un timestamp Firebase protetto. Revoca e separazione degli account conservate. Certificato LG verificato per dispositivo e autorizzazione locale cifrata.\n\nComposizione corporea: confronto Vitafit per la stessa pesata, muscolo in kg e percentuale, indice viscerale proprietario separato dai litri. Età metabolica registrabile come Importato · Vitafit, senza attribuirla a un calcolo GymDuo. Formule, grafica Bilancia e raccolta BLE conservate.\n\nStesso package e firma Android. Verifiche automatiche su PC; l'installazione del companion, l'autorizzazione sulla TV e la riproduzione sui dispositivi reali richiedono ancora conferma nell'uso reale.\n",
+  "releaseNotes": "Interfaccia riorganizzata mantenendo logo, icona e media open source già integrati.\n\nHome più utile: scheda da riprendere, avvio allenamento, ultima pesata, ultimo allenamento e collegamento TV. Rimossa la ricerca esercizi duplicata.\n\nAllenamento focalizzato sull'esercizio corrente: animazione esistente subito visibile, serie/ripetizioni/recupero, input rapidi, Fine serie e timer. Tecnica su richiesta con ritorno all'allenamento; miniature della scheda che conservano progressi e carichi.\n\nEsercizi: una sola barra di ricerca, filtri conservati, aggiunta personale spostata negli strumenti secondari. Bilancia: card compatte con il valore principale; metodo, stime, unità di confronto e range rimangono nel dettaglio. Dispositivi e diagnostica nelle impostazioni.\n\nMenu alto dedicato alle funzioni secondarie. Impostazioni per categorie e pagina Aggiornamenti dedicata; preferenze personali per testo più grande e animazioni automatiche ridotte. Collegamento browser TV secondario rispetto alla ricerca LG nell'APK.\n\nStesso package e certificato Android, versionCode 26. BLE, algoritmi corporei, Firebase, backup, updater e companion LG conservati. Test automatici su PC; nessun nuovo collaudo fisico di telefono, bilancia o TV dichiarato.\n",
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.26/GymDuo.apk",
   "applicationId": "it.gymduo.app",
-  "versionCode": 25,
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/726559701"
+  "sha256": "9367af083dfe6c3ed7c0e961ca24f1360a279835c7aeddf5a0da59094ddd1676",
+  "versionName": "1.26",
+  "versionCode": 26,
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/727079124"
 }
