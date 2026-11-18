@@ -1,9 +1,9 @@
 {
-  "versionCode": 36,
-  "versionName": "1.36",
-  "sha256": "a8a4fa0f8cf8e83cc198be1501c9387d4a359e4ca39e3d99e81d4711a0fd99c4",
-  "releaseNotes": "Allenamento compatto con cronometro, ora di inizio, controlli rapidi +/−, pannelli avanzati comprimibili e timer separato per serie a tempo. GIF e miniature originali conservate.\n\nCambio esercizio incrementale con swipe o miniature: riutilizzo della barra e della GIF quando possibile, posizione mantenuta, completamento soltanto registrando le serie. Corretto il bug che cancellava il recupero durante il cambio esercizio.\n\nRecupero persistente a scadenza assoluta, pausa/ripresa, +15/+30 secondi e salto. Avvisi Android con AlarmManager e token persistenti contro duplicazioni; suono/vibrazione/notifiche configurabili. Timer precisi subordinati al permesso Android, fallback non preciso dichiarato. Nessuna scrittura Firebase ogni secondo.\n\nSchermo mantenuto acceso nella schermata allenamento, per impostazione predefinita, con normale comportamento Android in background. Dati dell’ultima prestazione proposta senza alterare target e progressioni espliciti. Durate effettive a tempo, inizio/fine, pause e convenzione durata registrati nello storico.\n\nStesso package e certificato, build36. Test automatici browser con clock controllato, controlli nativi di scadenza e suite esistente. Notifiche fisiche/background, suono, gestione energetica Xiaomi e schermo acceso non sono dichiarati collaudati su telefono reale.\r\n",
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.36/GymDuo.apk",
   "applicationId": "it.gymduo.app",
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/764992377"
+  "versionCode": 37,
+  "releaseNotes": "Hotfix della schermata Allenamento: eliminata la griglia esterna con posizionamento rigido che generava colonne implicite negli stati completato, pausa e da associare. Un solo flusso verticale responsive; nessuna migrazione o azzeramento dei dati.\n\nContatore della scheda aggiornato mantenendo lo stesso carosello. Serie completate mostrate in forma numerica e ultimo target/carico ancora leggibili. Storico sopra il media anziché sovrapposto ai comandi; segnaposto proporzionato per esercizi personali senza GIF. Animazioni originali e funzioni della 1.36 conservate.\n\nNuovi test visivi/metrici su stati reali di registrazione, 14 esercizi, 320×700, 360×800, 393×873, 412×915, landscape, testo grande e tastiera simulata. Suite automatica completa, firma/package originali e versionCode37. Nessuna nuova prova fisica su Xiaomi, BLE o TV.\r\n",
+  "sha256": "ebb2578547a74b725c3ac3ba4de060d1703fd3d6e730fb3661bd1ad665d32065",
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.37/GymDuo.apk",
+  "versionName": "1.37",
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/765182518"
 }
