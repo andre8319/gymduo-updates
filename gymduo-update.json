@@ -1,9 +1,9 @@
 {
+  "versionCode": 38,
+  "sha256": "2fd892ad3b70859302eaf06c3e556e86bd3d9c9a0f9b85917064efc10191a14b",
   "applicationId": "it.gymduo.app",
-  "versionCode": 37,
-  "releaseNotes": "Hotfix della schermata Allenamento: eliminata la griglia esterna con posizionamento rigido che generava colonne implicite negli stati completato, pausa e da associare. Un solo flusso verticale responsive; nessuna migrazione o azzeramento dei dati.\n\nContatore della scheda aggiornato mantenendo lo stesso carosello. Serie completate mostrate in forma numerica e ultimo target/carico ancora leggibili. Storico sopra il media anziché sovrapposto ai comandi; segnaposto proporzionato per esercizi personali senza GIF. Animazioni originali e funzioni della 1.36 conservate.\n\nNuovi test visivi/metrici su stati reali di registrazione, 14 esercizi, 320×700, 360×800, 393×873, 412×915, landscape, testo grande e tastiera simulata. Suite automatica completa, firma/package originali e versionCode37. Nessuna nuova prova fisica su Xiaomi, BLE o TV.\r\n",
-  "sha256": "ebb2578547a74b725c3ac3ba4de060d1703fd3d6e730fb3661bd1ad665d32065",
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.37/GymDuo.apk",
-  "versionName": "1.37",
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/765182518"
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.38/GymDuo.apk",
+  "releaseNotes": "Corretto l'accesso ai documenti JSON nella WebView: ACTION_OPEN_DOCUMENT con CATEGORY_OPENABLE, fallback GET_CONTENT, MIME JSON/text-json e provider con MIME generici, callback e annullamento gestiti. URI content concessi dal sistema; accesso file disabilitato e provider propri esclusi. Nessun permesso generale di archiviazione.\n\nNuovo controllo in anteprima per giri dei superset/circuiti: giorno, gruppo, esercizi e serie indicati chiaramente. Correzione su richiesta dei soli riepiloghi derivabili; conferma quando le serie differiscono o variano per settimana. Nessuna serie, ripetizione, carico, RIR o recupero modificato. Originali e audit delle correzioni conservati. Errori strutturali non deducibili rimangono bloccanti; gli esercizi mancanti mantengono ricerca visiva/GIF e segnaposto esistenti.\n\nCorretto anche il caricamento che poteva riabilitare Importa nonostante errori. Account, salvataggio locale/Firebase e prevenzione duplicati conservati. Test automatici con quattro giorni, file/testo, correzioni, annullamento, errore di lettura, due client e isolamento UID. Package e firma originali, build38. Selettore SAF e Android16 non dichiarati verificati su telefono reale.\r\n",
+  "versionName": "1.38",
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/780197633"
 }
