@@ -1,9 +1,9 @@
 {
+  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.40/GymDuo.apk",
+  "versionCode": 40,
+  "releaseNotes": "Correzione mirata del carosello durante l’allenamento, senza redesign.\n\nIl contenitore della sessione e il carosello restano collegati alla pagina durante gli aggiornamenti. Le miniature e le animazioni già caricate vengono conservate; nessun centraggio su render di sincronizzazione o aggiornamenti del timer. L’esercizio selezionato viene portato in vista solo al cambio effettivo, senza interferire con un trascinamento in corso.\n\nScorrimento touch nativo separato dal tap; un trascinamento non seleziona miniature. Swipe di cambio esercizio limitato alla zona principale. I controlli precedente/successivo conservano ora la scadenza assoluta del recupero, come la selezione dalle miniature. Serie, carichi, bozze e inizio sessione conservati.\n\nTest con14 esercizi e animazioni già integrate, esercizio senza media, touch Chromium durante render ripetuti, miniature lontane, tap/drag/swipe, identità immagini/animazioni, recupero/riapertura e sincronizzazione Firebase emulata fra due client. Nessun test fisico sullo Xiaomi. Stesso package e certificato; build40.\r\n",
+  "sha256": "fedea65913e6d05149bb250d35e9b59eccb2c9a31e5ac76e0855058062334e8f",
   "applicationId": "it.gymduo.app",
-  "sha256": "0c7cb49d49b171d54c65fa0f1d1c2dc808573bb68d06e9d0e460d8575028d0c6",
-  "releaseNotes": "Importazione JSON Android con percorso dedicato: il sistema apre il documento, il lettore nativo acquisisce UTF-8/BOM entro500kB e passa il testo all'app a blocchi con controllo SHA-256. La via principale non dipende da File.text/content URI nella WebView. Incolla e selettore alternativo restano disponibili. Stato apertura/lettura/errori/annullamento visibile; nessun permesso generale di archiviazione. Risposte tardive non sovrascrivono testo modificato e l'account deve restare lo stesso.\n\nControllo dell'intero programma con elenco di più errori di schema e indicazione di giorno/esercizio. Riepiloghi rounds nulli o incoerenti gestiti in anteprima; serie differenti e progressioni mantenute con conferma, senza tagli. Schema e motore di esecuzione originali conservati, nessuna modifica agli allenamenti salvati.\n\nTest Java lettura/chunk/hash, bridge simulato con parser e Firebase emulati, quattro giorni, correzioni, prescrizioni, duplicati, errori e risposta tardiva. Suite regressione e build firmata. Stesso package e certificato, build39. Selettore Android16/Xiaomi/Drive non provato fisicamente; Verificato anche il file reale a4giorni presente in Download: riepilogo2 con serie3/2, correzione guidata a3 passaggi, tutte le prescrizioni conservate. Pagina locale versionata/no-store senza cancellare dati; causa specifica del telefono non dimostrata.\r\n",
-  "versionCode": 39,
-  "versionName": "1.39",
-  "apkUrl": "https://github.com/andre8319/gymduo-updates/releases/download/v1.39/GymDuo.apk",
-  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/783849601"
+  "versionName": "1.40",
+  "apkApiUrl": "https://api.github.com/repos/andre8319/gymduo-updates/releases/assets/793012363"
 }
